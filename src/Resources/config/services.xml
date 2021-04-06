@@ -5,7 +5,7 @@
         https://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="zarchivarius_archive.services.archivarius_service" class="Zarchivarius\ArchiveBundle\Services\ArchivariusService" public="false" />
+        <service id="zarchivarius_archive.services.archivarius_service" class="Zarchivarius\ArchiveBundle\Services\ArchivariusService" public="true" />
         <service id="Zarchivarius\ArchiveBundle\Services\ArchivariusService" alias="zarchivarius_archive.services.archivarius_service" public="false" />
     </services>
 </container>
